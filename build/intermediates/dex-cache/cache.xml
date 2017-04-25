@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\be785a3ecfe94dcfa7e0503338d3ee97cee35735\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e1108e42d54b73d0ddd614cd95d6b2cba8a05e0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\30461d9b17c91ce070d85a5aa19345f53e4a1ce2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6b3dfc56ad0a78eeede3a045f8fe67307c0a1e6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\41919b3400fb8aebaeed9edb5aa3412cafcfa01f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3b0771731608ac1471addbfe7351488a17b9427\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_816c7b8d41d67124ae4f609614b8cb49e92d6dcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\8e4056b24e8f8b0db279692e4ee9d7f638e7bb39\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_52634905b2a803e9f74371d9f67d2f5c57a9b666\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\9a9e45ee7dd207dfd078b3d3a501608562c3fe8f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_59fa1e906d5299b5225c26e331db404f103ae278\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b179e7621c9d597e8dd31449ba1b484c8c80ee95">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_fc4ec7d8a3f08daf2aed6f727b8791958ddf7e4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\8436438318f3d39727744232c0c7729227b3f268\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8eb4242f05d3a23214a655ccbae40e9855501a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\b337141327fb079a7f5647a4a5146f6e330ce00b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_23e09cbf8a27aa5fff6315310463429c22389090\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\0030df33982a419002aaac71d229cf7e124a3f1a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f45503e1140d442914266b708c2ce97f1bcef51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\cffa17025a6f308d42aa104db41e495e9997e189\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_295e7d3ee0c02521dbb38c4bd8a03ad197bb46f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\175460c53e70d7d15ad24301d3b19bd8cf43cb84\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a3a371930ec222fed5e623c14b5a5eb705c7a2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_82a445c3261fa1590c44e44099d26d9a7715462f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\835898d4e8e8572b45c20a84a06474a163986c81\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cde848a07dd388e8880718c2501f0973f098e02a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\649f10c947d9176edda4cc4a1afa64d46eab0de6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e90d037c16e27c76d565b701d891ba5a883d023\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\2a0735ab80c07a60b47ae9dfbbbfa5cca29e5115\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5fc875fb6a7d3fcd5978d3dc7a53056b0bbf03d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\680b9251bbe287d80330361ea9dfc26e06c2ccb0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_98bd816503724df28baded6568467c31a3ebe498\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\a9560a05bba9b9e5f1b7fbe73e8902ef1babb01b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_74b2636000cd7d3cbbe6740bfbfa7c1de2dd2a4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\186d7a480ff67cf750b07a5806447e093ca58b2e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f635c48dbe4c491203e232db015da427fe041cc\classes.dex" />
+    </item>
+
+</items>

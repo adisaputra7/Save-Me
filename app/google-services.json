@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1060477731293",
+    "firebase_url": "https://saku-ria-98cb3.firebaseio.com",
+    "project_id": "saku-ria-98cb3",
+    "storage_bucket": "saku-ria-98cb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060477731293:android:e15338b099ab672a",
+        "android_client_info": {
+          "package_name": "com.example.nurhadis.sakuria1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060477731293-470qhf74uktpsq938mukalhpcn6rgb2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLw4VN6IXF6hoNNO9zdibZ8Mqa9sMtHzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
