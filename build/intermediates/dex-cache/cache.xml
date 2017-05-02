@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b179e7621c9d597e8dd31449ba1b484c8c80ee95">
+        sha1="cf0314472e0fc8199a1340116c5f1aa0de41cdc8">
         <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_fc4ec7d8a3f08daf2aed6f727b8791958ddf7e4d\classes.dex" />
     </item>
     <item
@@ -72,6 +72,15 @@
         revision="25.0.2"
         sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
         <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8eb4242f05d3a23214a655ccbae40e9855501a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nur Hadi Saputra\.android\build-cache\e0cabd9fdd33d0767614861014786f7faadc3ee5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_efc4cf7602d709196f03ebcc1bda74437de3f965\classes.dex" />
     </item>
     <item
         is-multidex="true"

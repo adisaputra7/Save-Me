@@ -45,7 +45,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.nurhadis.sakuria1.MainActivity" >
+        <activity
+            android:name="com.example.nurhadis.sakuria1.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,6 +55,16 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.nurhadis.sakuria1.AccountActivity" />
+        <activity
+            android:name="com.example.nurhadis.sakuria1.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

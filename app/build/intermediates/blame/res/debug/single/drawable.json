@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_manage.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
@@ -80,12 +84,20 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
@@ -110,6 +122,10 @@
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_send.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sakuria.png",
@@ -168,8 +184,16 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_slideshow.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
@@ -194,5 +218,9 @@
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     }
 ]

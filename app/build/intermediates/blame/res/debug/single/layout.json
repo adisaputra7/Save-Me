@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splashscreen.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splashscreen.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\edabb7ff478080c63465d67c81251eeca8e8cb22\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -70,6 +70,22 @@
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_navigation.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\nav_header_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_item_detail.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\activity_item_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_dashboard.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\content_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_navigation.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\activity_navigation.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -108,6 +124,10 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\edabb7ff478080c63465d67c81251eeca8e8cb22\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_navigation.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\app_bar_navigation.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\edabb7ff478080c63465d67c81251eeca8e8cb22\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
@@ -144,6 +164,14 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_dashboard.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\app_bar_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_detail.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\item_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
@@ -164,12 +192,20 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_content.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\item_list_content.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\item_list.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
@@ -184,6 +220,14 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\edabb7ff478080c63465d67c81251eeca8e8cb22\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_dashboard.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\nav_header_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
@@ -196,8 +240,16 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_navigation.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\content_navigation.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_item_list.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\activity_item_list.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\acitivty_spalshscreen.xml",

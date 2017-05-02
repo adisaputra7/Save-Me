@@ -1,4 +1,4 @@
-#Tue Apr 25 23:08:02 ICT 2017
+#Tue May 02 01:42:00 ICT 2017
 base.0=C\:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fc4ec7d8a3f08daf2aed6f727b8791958ddf7e4d
 renamed.1=classes2.dex
 renamed.0=classes.dex

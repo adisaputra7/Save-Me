@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.Auth;
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private  static final String TAG = "MAIN ACTIVITY";
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(firebaseAuth.getCurrentUser() != null) {
 
-                    startActivity(new Intent(MainActivity.this, AccountActivity.class ));
+                    startActivity(new Intent(MainActivity.this, Dashboard.class ));
 
                 }
             }
