@@ -47,7 +47,7 @@
             android:hint="Password"
             android:textColor="#FFF"
             android:textColorHint="#FFF"
-            android:inputType="textVisiblePassword"
+            android:inputType="textPassword"
             android:layout_below="@+id/input_email"
             android:layout_alignStart="@+id/input_email"
             android:backgroundTint="#FFF"/>

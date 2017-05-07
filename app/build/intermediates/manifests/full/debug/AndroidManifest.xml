@@ -58,9 +58,8 @@
             android:name="com.example.nurhadis.sakuria1.Activities.AccountActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.Dashboard"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.example.nurhadis.sakuria1.Activities.Summary"
+            android:label="@string/title_activity_summary" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

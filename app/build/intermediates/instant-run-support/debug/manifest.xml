@@ -37,7 +37,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.nurhadis.sakuria1.Splashscreen"
+            android:name="com.example.nurhadis.sakuria1.Activities.Splashscreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.nurhadis.sakuria1.MainActivity"
+            android:name="com.example.nurhadis.sakuria1.Activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,18 +55,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.nurhadis.sakuria1.AccountActivity"
+            android:name="com.example.nurhadis.sakuria1.Activities.AccountActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.nurhadis.sakuria1.Dashboard"
+            android:name="com.example.nurhadis.sakuria1.Activities.Dashboard"
             android:label="@string/title_activity_dashboard"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nurhadis.sakuria1.Activities.Summary"
+            android:label="@string/title_activity_summary" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

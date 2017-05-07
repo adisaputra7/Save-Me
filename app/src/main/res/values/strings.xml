@@ -27,4 +27,8 @@
     <string name="email">Email:</string>
     <string name="password">Password:</string>
     <string name="re_type_password">Re-type Password:</string>
+    <string name="title_activity_summary">Summary</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

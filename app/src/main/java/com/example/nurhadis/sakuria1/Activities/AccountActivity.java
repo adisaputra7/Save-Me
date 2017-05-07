@@ -18,6 +18,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class AccountActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -28,6 +30,9 @@ public class AccountActivity extends AppCompatActivity implements View.OnClickLi
     private EditText textPhone;
 
     private FirebaseAuth firebaseAuth;
+    private FirebaseAuth.AuthStateListener mAuthListener;
+
+    DatabaseReference mDatabaseRef;
 
     private ProgressDialog progressDialog;
 
@@ -48,14 +53,18 @@ public class AccountActivity extends AppCompatActivity implements View.OnClickLi
 
         mRegister.setOnClickListener(this);
 
+        //Assign Instance
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference();
+
     }
-    
 
     private void registerUser() {
-        String name = textName.getText().toString().trim();
-        String email = textEmail.getText().toString().trim();
-        String password = textPassword.getText().toString().trim();
-        String phone = textPhone.getText().toString().trim();
+        final String name, email, password, phone;
+
+         name = textName.getText().toString().trim();
+         email = textEmail.getText().toString().trim();
+         password = textPassword.getText().toString().trim();
+         phone = textPhone.getText().toString().trim();
 
         if (TextUtils.isEmpty(email)){
             //email is empty
@@ -93,16 +102,30 @@ public class AccountActivity extends AppCompatActivity implements View.OnClickLi
                             //user is succesfull registered and logged in
                             //we will start the profile activity here
                             //and display toast
+                            DatabaseReference mChildDatabase = mDatabaseRef.child("Users").push();
+
+                            String key_user= mChildDatabase.getKey();
+
+                            mChildDatabase.child("keyUser").setValue(key_user);// set User key in database
+                            mChildDatabase.child("emailUser").setValue(email);// set email in database
+                            mChildDatabase.child("pwdUser").setValue(password);// set password in database
+                            mChildDatabase.child("fullname").setValue(name);
+                            mChildDatabase.child("phone").setValue(phone);
+
                             Toast.makeText(AccountActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity( new Intent(AccountActivity.this, Dashboard.class));
-                        }else {
+                            startActivity( new Intent(AccountActivity.this, Summary.class));
+
+                        }
+                        else {
+
                             Toast.makeText(AccountActivity.this, "Couldn't register, please try again", Toast.LENGTH_SHORT).show();
                         }
                     }
+
                 });
     }
 
-    @Override
+        @Override
     public void onClick(View view) {
         registerUser();
     }
