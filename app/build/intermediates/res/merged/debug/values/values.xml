@@ -747,6 +747,7 @@
     <string name="google_app_id" translatable="false">1:1060477731293:android:e15338b099ab672a</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBLw4VN6IXF6hoNNO9zdibZ8Mqa9sMtHzA</string>
     <string name="google_storage_bucket" translatable="false">saku-ria-98cb3.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="password">Password:</string>
@@ -767,6 +768,7 @@
     <string name="title_activity_account">Account</string>
     <string name="title_activity_dashboard">Dashboard</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="title_activity_summary">Summary</string>
     <string name="title_dashboard">Dashboard</string>

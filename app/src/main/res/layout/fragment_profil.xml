@@ -1,0 +1,146 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nurhadis.sakuria1.AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Profil"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="Profil"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:background="#0288D1"
+            android:paddingBottom="15dp"/>
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/ic_account_usertblack" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:paddingTop="23dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="#000"
+                android:textSize="25sp"
+                />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <EditText
+            android:id="@+id/setName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textColor="#757575"
+            android:backgroundTint="#757575"
+            android:hint="Input name here!"
+            android:inputType="textPersonName" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/ic_event_emailblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:paddingTop="23dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="#000"
+                android:textSize="25sp"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <EditText
+            android:id="@+id/setEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textColor="#757575"
+            android:backgroundTint="#757575"
+            android:hint="example@email.com"
+            android:inputType="textEmailAddress" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/ic_event_phoneblack" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. Hp"
+                android:paddingTop="23dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="#000"
+                android:textSize="25sp"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <EditText
+            android:id="@+id/setNoHp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textColor="#757575"
+            android:backgroundTint="#757575"
+            android:hint="+62"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:text="Save"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:background="#0288D1"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

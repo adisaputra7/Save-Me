@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.MainActivity"
+            android:name="com.example.nurhadis.sakuria1.Activities.SignIn"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,15 +55,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.AccountActivity"
+            android:name="com.example.nurhadis.sakuria1.Activities.SignUp"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.Dashboard"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.Summary"
-            android:label="@string/title_activity_summary" />
+            android:name="com.example.nurhadis.sakuria1.Activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

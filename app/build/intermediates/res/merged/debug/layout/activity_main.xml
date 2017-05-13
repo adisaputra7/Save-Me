@@ -1,131 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:layout_gravity="center"
-    android:background="#0277BD">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nurhadis.sakuria1.Activities.Summary">
 
-    <RelativeLayout
+    <FrameLayout
+        android:id="@+id/contentku"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/navigation" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="120dp"
-            android:layout_height="90dp"
-            app:srcCompat="@drawable/sakuria"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="57dp" />
-
-
-        <EditText
-            android:id="@+id/input_email"
-            android:backgroundTint="#FFF"
-            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/imageView"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="105dp"
-            android:ems="13"
-            android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:selectAllOnFocus="false"
-            android:textColor="#FFF"
-            android:textColorHint="#FFF"
-            android:textSize="16sp" />
-
-        <EditText
-            android:id="@+id/input_password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:ems="13"
-            android:hint="Password"
-            android:textColor="#FFF"
-            android:textColorHint="#FFF"
-            android:inputType="textPassword"
-            android:layout_below="@+id/input_email"
-            android:layout_alignStart="@+id/input_email"
-            android:backgroundTint="#FFF"/>
-
-        <ImageView
-            android:id="@+id/icon_email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/sym_action_email"
-            android:layout_alignTop="@+id/input_email"
-            android:layout_toStartOf="@+id/input_email" />
-
-        <ImageView
-            android:id="@+id/icon_password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/ic_lock_idle_lock"
-            android:layout_alignTop="@+id/input_password"
-            android:layout_alignStart="@+id/icon_email"/>
-
-        <Button
-            android:id="@+id/login"
-            style="@android:style/Widget.Holo.Button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:backgroundTint="@color/colorPrimary"
-            android:fontFamily="sans-serif"
-            android:text="Sign In"
-            android:textStyle="bold"
-            android:typeface="normal"
-            android:layout_below="@+id/input_password"
-            android:layout_alignEnd="@+id/input_password"
-            android:layout_alignStart="@+id/input_password" />
-
-        <TextView
-            android:id="@+id/register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:text="Don't have account, create one here!"
-            android:layout_below="@+id/login"
-            android:textColor="#FFF"
-            android:layout_centerHorizontal="true" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
-            android:text="OR"
-            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
-            android:textColor="#FFFF"
-            android:textSize="16sp"
-            android:layout_below="@+id/register"
-            android:layout_centerHorizontal="true" />
-
-        <com.google.android.gms.common.SignInButton
-            android:id="@+id/googleBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_below="@+id/textView"
-            android:layout_alignStart="@+id/input_password"
-            android:layout_alignEnd="@+id/login" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Term"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="#FFF"
-            android:textSize="14sp"
-            android:typeface="sans"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/googleBtn" />
-
-    </RelativeLayout>
-</ScrollView>
+</LinearLayout>

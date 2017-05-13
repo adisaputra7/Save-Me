@@ -1,4 +1,4 @@
-#Sun May 07 11:56:03 ICT 2017
+#Fri May 12 20:19:34 ICT 2017
 file.9=C\:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bf9eee414ee23448da3860fbc7570e557f379ee0\\classes.dex
 base.10=C\:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_f1806e6d39508255d4e9983af320812b3170cca1
 file.8=C\:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_485539f491fd49918cbbff9e9305b142c20d65f5\\classes.dex

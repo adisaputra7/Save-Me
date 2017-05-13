@@ -1,0 +1,185 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nurhadis.sakuria1.ExpensesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/navigation_expenses"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:text="Expenses"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:background="#0288D1"
+                android:paddingBottom="15dp"/>
+
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/ic_event_goalsblack" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 0"
+                    android:paddingTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="#F44336"
+                    android:textSize="25sp"
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <EditText
+                android:id="@+id/setIncomes"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:textColor="#757575"
+                android:hint="Set your Expenses here!"
+                android:backgroundTint="#757575"
+                android:inputType="number" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/categoryblack" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Category"
+                    android:paddingTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    /> // Goal
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <EditText
+                android:id="@+id/setCategory"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:hint="Select category here!"
+                android:textColor="#757575"
+                android:backgroundTint="#757575"
+                />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/ic_date_rangeeeee" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Today"
+                    android:paddingTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <EditText
+                android:id="@+id/setDate"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:textColor="#757575"
+                android:hint="Date"
+                android:backgroundTint="#757575"
+                android:inputType="date" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/logOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/ic_event_note" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Note"
+                    android:paddingTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <EditText
+                android:id="@+id/setNote"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:textColor="#757575"
+                android:hint="Add notes"
+                android:backgroundTint="#757575"
+                android:inputType="textShortMessage" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="12dp"
+                android:textSize="30sp"
+                android:text="OK"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:paddingTop="1dp"
+                android:background="#0288D1"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
