@@ -4,7 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.nurhadis.sakuria1.AccountFragment">
+    tools:context="com.example.nurhadis.SaveMe.AccountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,17 +16,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/Help"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textSize="30sp"
+            android:textSize="23sp"
             android:text="Help"
             android:textColor="#FFF"
             android:gravity="center"
-            android:paddingTop="15dp"
+            android:paddingTop="14dp"
             android:background="#0288D1"
-            android:paddingBottom="15dp"/>
+            android:paddingBottom="14dp"/>
 
 
         <android.support.v7.widget.LinearLayoutCompat
@@ -41,8 +44,8 @@
                 />
         </android.support.v7.widget.LinearLayoutCompat>
 
-
-
     </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>

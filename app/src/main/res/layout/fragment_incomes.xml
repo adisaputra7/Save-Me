@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.nurhadis.sakuria1.IncomesFragment">
+    tools:context="com.example.nurhadis.SaveMe.IncomesFragment">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,14 +20,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="23sp"
                 android:text="Incomes"
                 android:textColor="#FFF"
                 android:gravity="center"
-                android:paddingTop="15dp"
+                android:paddingTop="14dp"
                 android:background="#0288D1"
-                android:paddingBottom="15dp"/>
-
+                android:paddingBottom="14dp"/>
 
             <android.support.v7.widget.LinearLayoutCompat
                 android:layout_width="wrap_content"
@@ -46,10 +45,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Rp 0"
-                    android:paddingTop="25dp"
+                    android:paddingTop="26dp"
                     android:layout_marginLeft="25dp"
                     android:textColor="#64DD17"
-                    android:textSize="25sp"
+                    android:textSize="22sp"
                     />
             </android.support.v7.widget.LinearLayoutCompat>
 
@@ -79,10 +78,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Select Category"
-                    android:paddingTop="25dp"
+                    android:paddingTop="26dp"
                     android:layout_marginLeft="25dp"
                     android:textColor="#000"
-                    android:textSize="25sp"
+                    android:textSize="22sp"
                     />
 
             </android.support.v7.widget.LinearLayoutCompat>
@@ -114,10 +113,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Today"
-                    android:paddingTop="25dp"
+                    android:paddingTop="26dp"
                     android:layout_marginLeft="25dp"
                     android:textColor="#000"
-                    android:textSize="25sp"
+                    android:textSize="22sp"
                     />
 
             </android.support.v7.widget.LinearLayoutCompat>
@@ -133,7 +132,6 @@
                 android:inputType="date" />
 
             <android.support.v7.widget.LinearLayoutCompat
-                android:id="@+id/logOut"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -149,10 +147,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Note"
-                    android:paddingTop="25dp"
+                    android:paddingTop="26dp"
                     android:layout_marginLeft="25dp"
                     android:textColor="#000"
-                    android:textSize="25sp"
+                    android:textSize="22sp"
                     />
 
             </android.support.v7.widget.LinearLayoutCompat>
@@ -168,18 +166,19 @@
                 android:inputType="textShortMessage" />
 
             <Button
-                android:layout_width="100dp"
+                android:layout_width="140dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="235dp"
+                android:layout_marginStart="190dp"
                 android:layout_marginTop="12dp"
-                android:textSize="30sp"
+                android:layout_marginBottom="25dp"
+                android:background="#0288D1"
+                android:gravity="center"
                 android:text="OK"
                 android:textColor="#FFF"
-                android:gravity="center"
-                android:paddingTop="1dp"
-                android:background="#0288D1"
-                />
+                android:textSize="22sp" />
 
         </LinearLayout>
+
     </ScrollView>
+
 </FrameLayout>

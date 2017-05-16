@@ -3,27 +3,27 @@
 
     <item
         android:id="@+id/navigation_summary"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_account_balance"
         android:title="Summary" />
 
     <item
         android:id="@+id/navigation_incomes"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_add_circle_outline1"
         android:title="Incomes" />
 
     <item
         android:id="@+id/navigation_saving"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/ic_account_balance_wallet1"
         android:title="Saving" />
 
     <item
         android:id="@+id/navigation_expenses"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/ic_remove_circle_outline1"
         android:title="Expenses" />
 
     <item
         android:id="@+id/navigation_account"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/ic_account_circle"
         android:title="Account" />
 
 </menu>

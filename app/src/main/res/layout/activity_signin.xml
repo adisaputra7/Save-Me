@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_gravity="center"
     android:background="#0277BD"
-    tools:context="com.example.nurhadis.sakuria1.Activities.SignIn">
+    tools:context="com.example.nurhadis.SaveMe.Activities.SignIn">
 
     <RelativeLayout
         android:layout_width="match_parent"

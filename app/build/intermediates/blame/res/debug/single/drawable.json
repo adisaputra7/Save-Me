@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fuelblack.png",
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\fuelblack.png"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_goalsblack.png",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\7647a80c4e41fa683bb98f5bfef6a61fd8c6695b\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_balance.png",
@@ -100,16 +100,16 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_carwhite.png",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_account_carwhite.png"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_carwhite.png",
-        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_account_carwhite.png"
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
@@ -136,10 +136,6 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bb_bottom_bar_top_shadow.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\c111fa139f07b4e65e3c39ebe74989359e99d56c\\output\\res\\drawable\\bb_bottom_bar_top_shadow.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_restaurantwhite.png",
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_account_restaurantwhite.png"
     },
@@ -154,6 +150,10 @@
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_emailwhite.png",
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_event_emailwhite.png"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\iconwhite.png",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\iconwhite.png"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
@@ -208,12 +208,12 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\edabb7ff478080c63465d67c81251eeca8e8cb22\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_password.png",
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_event_password.png"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -240,10 +240,6 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\edabb7ff478080c63465d67c81251eeca8e8cb22\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\7647a80c4e41fa683bb98f5bfef6a61fd8c6695b\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
@@ -252,12 +248,20 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_account_usertblack.png"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\edabb7ff478080c63465d67c81251eeca8e8cb22\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_helpwhite.png",
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_event_helpwhite.png"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_note.png",
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_event_note.png"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
@@ -300,12 +304,12 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_phonewhite.png",
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\drawable\\ic_event_phonewhite.png"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_restaurant.png",

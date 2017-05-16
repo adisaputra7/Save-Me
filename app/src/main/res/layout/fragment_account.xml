@@ -4,7 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.nurhadis.sakuria1.AccountFragment">
+    tools:context="com.example.nurhadis.SaveMe.AccountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,27 +16,27 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/MyAccount"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textSize="30sp"
+            android:textSize="23sp"
             android:text="My Account"
             android:textColor="#FFF"
             android:gravity="center"
-            android:paddingTop="15dp"
+            android:paddingTop="14dp"
             android:background="#0288D1"
-            android:paddingBottom="15dp"/>
+            android:paddingBottom="14dp"/>
 
 
         <android.support.v7.widget.LinearLayoutCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/btnProfil"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="35dp"
                 android:background="@drawable/ic_account_usertblack" />
@@ -45,18 +49,26 @@
                 android:paddingTop="25dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="#000"
-                android:textSize="28sp"
+                android:textSize="22sp"
                 />
         </android.support.v7.widget.LinearLayoutCompat>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
 
         <android.support.v7.widget.LinearLayoutCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/btnPassword">
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="35dp"
                 android:background="@drawable/ic_event_passwordblack" />
@@ -68,23 +80,31 @@
                 android:paddingTop="25dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="#000"
-                android:textSize="28sp"
+                android:textSize="22sp"
                 />
 
         </android.support.v7.widget.LinearLayoutCompat>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
 
         <android.support.v7.widget.LinearLayoutCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/btnHelp"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="35dp"
                 android:background="@drawable/ic_event_helpblack" />
-
 
             <TextView
                 android:layout_width="wrap_content"
@@ -93,20 +113,27 @@
                 android:paddingTop="25dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="#000"
-                android:textSize="28sp"
-                />
+                android:textSize="22sp"/>
 
         </android.support.v7.widget.LinearLayoutCompat>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
 
         <android.support.v7.widget.LinearLayoutCompat
             android:id="@+id/logOut"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="35dp"
                 android:background="@drawable/logoutblack" />
@@ -118,11 +145,21 @@
                 android:paddingTop="25dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="#000"
-                android:textSize="28sp"
+                android:textSize="22sp"
                 />
 
         </android.support.v7.widget.LinearLayoutCompat>
 
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
     </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>

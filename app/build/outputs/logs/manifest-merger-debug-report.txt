@@ -105,7 +105,7 @@ ADDED from C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\ap
 	android:name
 		ADDED from C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\src\main\AndroidManifest.xml:38:13-46
 activity#com.example.nurhadis.sakuria1.Activities.MainActivity
-ADDED from C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\src\main\AndroidManifest.xml:40:9-44:24
+ADDED from C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\src\main\AndroidManifest.xml:40:9-44:20
 	android:label
 		ADDED from C:\Users\Nur Hadi Saputra\Documents\AndroidStudioProjects\SakuRia1\app\src\main\AndroidManifest.xml:42:13-56
 	android:theme

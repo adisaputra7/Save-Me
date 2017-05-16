@@ -4,200 +4,203 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.nurhadis.sakuria1.SavingFragment">
+    tools:context="com.example.nurhadis.SaveMe.SavingFragment">
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Saving"
             android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0288D1"
+            android:gravity="center"
+            android:paddingBottom="14dp"
+            android:paddingTop="14dp"
+            android:text="Saving"
+            android:textColor="#FFF"
+            android:textSize="23sp" />
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/Saving"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="#0288D1"
-                android:gravity="center"
-                android:paddingBottom="15dp"
-                android:paddingTop="15dp"
-                android:text="Saving"
-                android:textColor="#FFF"
-                android:textSize="30sp" />
-
-
-            <android.support.v7.widget.LinearLayoutCompat
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="25dp"
-                    android:background="@drawable/ic_event_goalsblack" />
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:paddingTop="25dp"
-                    android:text="Name"
-                    android:textColor="#000"
-                    android:textSize="25sp" />
-            </android.support.v7.widget.LinearLayoutCompat>
-
-            <EditText
-                android:id="@+id/fullName"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="35dp"
-                android:backgroundTint="#757575"
-                android:hint="Write your Saving title here!"
-                android:inputType="textPersonName"
-                android:textColor="#757575" />
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_event_goalsblack" />
 
-            <android.support.v7.widget.LinearLayoutCompat
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="25dp"
-                    android:background="@drawable/ic_account_balance_walletblack" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:paddingTop="25dp"
-                    android:text="Goal"
-                    android:textColor="#000"
-                    android:textSize="25sp" />
-                // Goal
-
-            </android.support.v7.widget.LinearLayoutCompat>
-
-
-            <EditText
-                android:id="@+id/setStartingSave"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:backgroundTint="#757575"
-                android:hint="Rp 0"
-                android:inputType="number"
-                android:textColor="#64DD17"
-                android:textColorHint="#64DD17" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:paddingTop="10dp"
-                android:text="Starting amount"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="26dp"
+                android:text="Name"
                 android:textColor="#000"
-                android:textSize="15sp" />
-            //Starting Amount
+                android:textSize="22sp" />
+        </android.support.v7.widget.LinearLayoutCompat>
 
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:backgroundTint="#757575"
+            android:hint="Write your Saving title here!"
+            android:inputType="textPersonName"
+            android:textColor="#757575" />
 
-            <EditText
-                android:id="@+id/setStartingSave"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="35dp"
-                android:backgroundTint="#757575"
-                android:hint="Rp 0"
-                android:inputType="number"
-                android:textColor="#64DD17"
-                android:textColorHint="#64DD17" />
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_account_balance_walletblack" />
 
-
-            <android.support.v7.widget.LinearLayoutCompat
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_marginLeft="25dp"
+                android:paddingTop="26dp"
+                android:text="Goal"
+                android:textColor="#000"
+                android:textSize="22sp" />
+            // Goal
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="25dp"
-                    android:background="@drawable/ic_date_rangeeeee" />
+        </android.support.v7.widget.LinearLayoutCompat>
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:paddingTop="25dp"
-                    android:text="Ending Date"
-                    android:textColor="#000"
-                    android:textSize="25sp" />
+        <EditText
+            android:id="@+id/setStartingSave"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:backgroundTint="#757575"
+            android:hint="Rp 0"
+            android:inputType="number"
+            android:textColor="#64DD17"
+            android:textColorHint="#64DD17" />
 
-            </android.support.v7.widget.LinearLayoutCompat>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:paddingTop="10dp"
+            android:text="Starting amount"
+            android:textColor="#000"
+            android:textSize="15sp" />
+        //Starting Amount
 
-            <EditText
-                android:id="@+id/endingDate"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
+
+        <EditText
+            android:id="@+id/setStartingAmount"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:backgroundTint="#757575"
+            android:hint="Rp 0"
+            android:inputType="number"
+            android:textColor="#64DD17"
+            android:textColorHint="#64DD17" />
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="35dp"
-                android:backgroundTint="#757575"
-                android:hint="Mark your date here!"
-                android:inputType="date"
-                android:textColor="#757575" />
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_date_rangeeeee" />
 
-            <android.support.v7.widget.LinearLayoutCompat
-                android:id="@+id/logOut"
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_marginLeft="25dp"
+                android:paddingTop="26dp"
+                android:text="Ending Date"
+                android:textColor="#000"
+                android:textSize="22sp" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="25dp"
-                    android:background="@drawable/ic_event_note" />
+        </android.support.v7.widget.LinearLayoutCompat>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:paddingTop="25dp"
-                    android:text="Note"
-                    android:textColor="#000"
-                    android:textSize="25sp" />
+        <EditText
+            android:id="@+id/endingDate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:backgroundTint="#757575"
+            android:hint="Mark your date here!"
+            android:inputType="date"
+            android:textColor="#757575" />
 
-            </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/setNote"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="35dp"
-                android:backgroundTint="#757575"
-                android:hint="Add notes"
-                android:inputType="textShortMessage"
-                android:textColor="#757575" />
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_event_note" />
 
-            <Button
-                android:layout_width="125dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="220dp"
-                android:layout_marginTop="30dp"
-                android:background="#0288D1"
-                android:gravity="center"
-                android:text="OK"
-                android:textColor="#FFF"
-                android:textSize="30sp" />
-        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="26dp"
+                android:text="Note"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <EditText
+            android:id="@+id/setNote"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:backgroundTint="#757575"
+            android:hint="Add notes"
+            android:inputType="textShortMessage"
+            android:textColor="#757575" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp"
+            android:background="#0288D1"
+            android:gravity="center"
+            android:text="OK"
+            android:textColor="#FFF"
+            android:textSize="22sp" />
+    </LinearLayout>
+
     </ScrollView>
+
 </FrameLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0277BD"
-    tools:context="com.example.nurhadis.sakuria1.Activities.SignUp">
+    tools:context="com.example.nurhadis.SaveMe.Activities.SignUp">
 
     <LinearLayout
         android:layout_width="match_parent"
