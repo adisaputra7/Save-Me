@@ -37,7 +37,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.Splashscreen"
+            android:name="com.example.nurhadis.SaveMe.Activities.Splashscreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.SignIn"
+            android:name="com.example.nurhadis.SaveMe.Activities.SignIn"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,13 +55,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.SignUp"
+            android:name="com.example.nurhadis.SaveMe.Activities.SignUp"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.nurhadis.sakuria1.Activities.MainActivity"
+            android:name="com.example.nurhadis.SaveMe.Activities.MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nurhadis.sakuria1.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
@@ -75,11 +78,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
             android:exported="true"
             android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -123,6 +121,11 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"

@@ -109,6 +109,9 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                             mChildDatabase.child("pwdUser").setValue(password);// set password in database
                             mChildDatabase.child("fullname").setValue(name);
                             mChildDatabase.child("phone").setValue(phone);
+                            mChildDatabase.child("incomes");
+                            mChildDatabase.child("expenses");
+                            mChildDatabase.child("save");
 
                             Toast.makeText(SignUp.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
                             startActivity( new Intent(SignUp.this, MainActivity.class));
@@ -125,6 +128,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
 
         @Override
     public void onClick(View view) {
-        registerUser();
+
+            registerUser();
     }
 }

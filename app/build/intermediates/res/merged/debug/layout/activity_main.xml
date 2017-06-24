@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.nurhadis.sakuria1.Activities.Summary">
+    tools:context="com.example.nurhadis.SaveMe.Activities.MainActivity">
 
 
     <FrameLayout

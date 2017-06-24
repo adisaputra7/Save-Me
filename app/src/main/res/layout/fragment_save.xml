@@ -1,0 +1,221 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nurhadis.SaveMe.Fragment.FragmentSave">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Saving"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#0288D1"
+                android:gravity="center"
+                android:paddingBottom="14dp"
+                android:paddingTop="14dp"
+                android:text="Saving"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/ic_event_goalsblack" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:paddingTop="26dp"
+                    android:text="Name"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <EditText
+                android:id="@+id/fullName"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:backgroundTint="#757575"
+                android:hint="Write your Saving title here!"
+                android:inputType="textPersonName"
+                android:textColor="#757575" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/ic_account_balance_walletblack" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:paddingTop="26dp"
+                    android:text="Goal"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+                //Goal
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+
+            <TextView
+                android:id="@+id/setStartingSave"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:inputType="number"
+                android:paddingTop="10dp"
+                android:text="Rp 0"
+                android:textColor="#64DD17"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="5dp"
+                android:background="#c0c0c0" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:paddingTop="10dp"
+                android:text="Starting amount"
+                android:textColor="#000"
+                android:textSize="22sp" />
+            //Starting Amount
+
+
+            <TextView
+                android:id="@+id/setStartingAmount"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:backgroundTint="#757575"
+                android:inputType="number"
+                android:text="Rp 0"
+                android:textColor="#64DD17"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="5dp"
+                android:background="#c0c0c0" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/ic_date_rangeeeee" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:paddingTop="26dp"
+                    android:text="Ending Date"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <EditText
+                android:id="@+id/endingDate"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:backgroundTint="#757575"
+                android:hint="Mark your date here!"
+                android:inputType="date"
+                android:textColor="#757575" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/ic_event_note" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:paddingTop="26dp"
+                    android:text="Note"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <EditText
+                android:id="@+id/setNote"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:backgroundTint="#757575"
+                android:hint="Add notes"
+                android:inputType="textShortMessage"
+                android:textColor="#757575" />
+
+            <Button
+                android:id="@+id/submitSave"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="5dp"
+                android:background="#0288D1"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="#FFF"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

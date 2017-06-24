@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transaction_list.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\transaction_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\notification_template_part_time.xml"
     },
@@ -56,10 +60,6 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\fragment_help.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_goals.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\fragment_goals.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\notification_template_lines_media.xml"
     },
@@ -114,6 +114,10 @@
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_save.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\fragment_save.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -200,6 +204,10 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calculator.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\calculator.xml"
+    },
+    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -226,10 +234,6 @@
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\edabb7ff478080c63465d67c81251eeca8e8cb22\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_calculator.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\fragment_calculator.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",

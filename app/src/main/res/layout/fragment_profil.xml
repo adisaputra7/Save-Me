@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.nurhadis.SaveMe.AccountFragment">
+    tools:context="com.example.nurhadis.SaveMe.Fragment.FragmentProfil">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -132,7 +132,7 @@
             android:inputType="number" />
 
         <Button
-            android:id="@+id/btnProfile"
+            android:id="@+id/btnSave"
             android:layout_width="140dp"
             android:layout_height="40dp"
             android:layout_marginStart="190dp"
