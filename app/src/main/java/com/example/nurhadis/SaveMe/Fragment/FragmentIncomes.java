@@ -121,12 +121,14 @@ public class FragmentIncomes extends Fragment{
             return;
         }
 
-        DatabaseReference mCurrent_db = mDatabaseRef.child("incomes").push();
+        DatabaseReference mCurrent_db = mDatabaseRef.child("transaction").push();
 
+        mCurrent_db.child("id").setValue("income");
         mCurrent_db.child("category").setValue(cetegory);
         mCurrent_db.child("date").setValue(date);
         mCurrent_db.child("note").setValue(note);
         mCurrent_db.child("value").setValue(value);
+
 
         Toast.makeText(getActivity(), "Transaction Added", Toast.LENGTH_SHORT).show();
 

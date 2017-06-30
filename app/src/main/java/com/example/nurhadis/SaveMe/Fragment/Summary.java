@@ -44,7 +44,9 @@ public class Summary extends Fragment {
         mAuth = FirebaseAuth.getInstance();
         mCurrentUser = mAuth.getCurrentUser();
 
-        mDatabase = FirebaseDatabase.getInstance().getReference().child("Users");
+        String key = mCurrentUser.getUid();
+
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child(key).child("transaction");
 
         mTransactionList = (RecyclerView) rootView.findViewById(R.id.transactionList);
         mTransactionList.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -63,12 +65,12 @@ public class Summary extends Fragment {
                 mDatabase
 
 
-        ) {
+        ){
             @Override
             protected void populateViewHolder(TransactionViewHolder viewHolder, Adapter model, int position) {
 
                 viewHolder.setCategory(model.getCategory());
-                viewHolder.setNotes(model.getNotes());
+                viewHolder.setNote(model.getNote());
                 viewHolder.setValue(model.getValue());
             }
         };
@@ -93,10 +95,10 @@ public class Summary extends Fragment {
             post_category.setText(category);
         }
 
-        public void setNotes(String notes){
+        public void setNote(String note){
 
             TextView post_category = (TextView) mView.findViewById(R.id.notes);
-            post_category.setText(notes);
+            post_category.setText(note);
         }
 
         public void setValue(String value){

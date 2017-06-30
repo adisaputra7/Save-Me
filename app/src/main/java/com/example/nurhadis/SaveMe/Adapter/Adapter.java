@@ -2,16 +2,16 @@ package com.example.nurhadis.SaveMe.Adapter;
 
 public class Adapter {
     private String category;
-    private String notes;
+    private String note;
     private String value;
 
     public Adapter() {
 
     }
 
-    public Adapter(String category, String notes, String value) {
+    public Adapter(String category, String note, String value) {
         this.category = category;
-        this.notes = notes;
+        this.note = note;
         this.value = value;
     }
 
@@ -23,12 +23,12 @@ public class Adapter {
         this.category = category;
     }
 
-    public String getNotes() {
-        return notes;
+    public String getNote() {
+        return note;
     }
 
-    public void setNotes(String notes) {
-        this.notes = notes;
+    public void setNote(String note) {
+        this.note = note;
     }
 
     public String getValue() {

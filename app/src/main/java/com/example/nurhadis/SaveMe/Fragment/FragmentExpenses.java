@@ -113,8 +113,9 @@ public class FragmentExpenses extends Fragment {
             return ;
         }
 
-        DatabaseReference mCurrent_db = mDatabaseRef.child("expenses").push();
+        DatabaseReference mCurrent_db = mDatabaseRef.child("transaction").push();
 
+        mCurrent_db.child("id").setValue("expenses");
         mCurrent_db.child("category").setValue(cetegory);
         mCurrent_db.child("date").setValue(date);
         mCurrent_db.child("note").setValue(note);
