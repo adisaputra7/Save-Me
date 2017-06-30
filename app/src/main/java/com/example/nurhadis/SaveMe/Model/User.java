@@ -1,39 +1,87 @@
 package com.example.nurhadis.SaveMe.Model;
 
-/**
- * Created by Nur Hadi S on 24/06/2017.
- */
 
 public class User {
-    private String name;
-    private String email;
-    private String phone;
+    private String uidUser;
+    private String fullname;
+    private String emailUser;
+    private String passUser;
+    private String incomes;
+    private String save;
+    private String expenses;
+
 
     public User(){
 
     }
 
-    public String getName() {
-        return name;
+    public User(String fullname, String emailUser, String passUser, String incomes, String save, String expenses) {
+        this.fullname = fullname;
+        this.emailUser = emailUser;
+        this.passUser = passUser;
+        this.incomes = incomes;
+        this.save = save;
+        this.expenses = expenses;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getIncomes() {
+        return incomes;
     }
 
-    public String getEmail() {
-        return email;
+    public void setIncomes(String incomes) {
+        this.incomes = incomes;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public String getSave() {
+        return save;
     }
 
-    public String getPhone() {
-        return phone;
+    public void setSave(String save) {
+        this.save = save;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public String getExpenses() {
+        return expenses;
     }
+
+    public void setExpenses(String expenses) {
+        this.expenses = expenses;
+    }
+
+    public String getUid() {
+        return uidUser;
+    }
+
+    public String getUidUser() {
+        return uidUser;
+    }
+
+    public void setUidUser(String uidUser) {
+        this.uidUser = uidUser;
+    }
+
+    public String getPassUser() {
+        return passUser;
+    }
+
+    public void setPassUser(String passUser) {
+        this.passUser = passUser;
+    }
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
+    }
+
+    public String getEmailUser() {
+        return emailUser;
+    }
+
+    public void setEmailUser(String emailUser) {
+        this.emailUser = emailUser;
+    }
+
 }

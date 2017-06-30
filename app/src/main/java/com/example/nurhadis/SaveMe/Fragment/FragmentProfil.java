@@ -2,13 +2,13 @@ package com.example.nurhadis.SaveMe.Fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.nurhadis.SaveMe.Model.User;
 import com.example.nurhadis.SaveMe.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -22,8 +22,11 @@ public class FragmentProfil extends Fragment {
     EditText editName, editEmail, editPhone;
     Button btnSave;
 
+    FirebaseUser mCurrentUser;
     FirebaseAuth firebaseAuth;
-    FirebaseDatabase mRef;
+    DatabaseReference mDataRef;
+
+    String keyUser;
 
 
     public FragmentProfil() {
@@ -38,22 +41,15 @@ public class FragmentProfil extends Fragment {
         rootView = inflater.inflate(R.layout.fragment_profil, container, false);
 
         firebaseAuth = FirebaseAuth.getInstance();
+        mCurrentUser = firebaseAuth.getCurrentUser();
 
-        FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
+        keyUser = mCurrentUser.getUid();
 
-        btnSave = (Button) rootView.findViewById(R.id.btnSave);
+        mDataRef = FirebaseDatabase.getInstance().getReference().child("Users");
+
         editName = (EditText) rootView.findViewById(R.id.setName);
         editEmail = (EditText) rootView.findViewById(R.id.setEmail);
-        editPhone = (EditText) rootView.findViewById(R.id.setNoHp);
-
-        final FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference ref = database.getReference("https://saku-ria-98cb3.firebaseio.com/Users");
-
-        User user = new User();
-
-        editName.setText(""+user.getName());
-        editEmail.setText(""+user.getEmail());
-        editPhone.setText(""+user.getPhone());
+        btnSave = (Button) rootView.findViewById(R.id.btnSave);
 
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,15 +57,11 @@ public class FragmentProfil extends Fragment {
 
                 String name = editName.getText().toString().trim();
                 String email = editEmail.getText().toString().trim();
-                String phone = editPhone.getText().toString().trim();
 
-                User user = new User();
-
-                user.setName(name);
-                user.setEmail(email);
-                user.setPhone(phone);
-
-                mRef.getReference().child("User").setValue(user);
+                    if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(email)) {
+                        mDataRef.child(keyUser).child("fullname").setValue(name);
+                        mDataRef.child(keyUser).child("emailUser").setValue(email);
+                    }
             }
         });
 

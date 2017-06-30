@@ -71,14 +71,14 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="35dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/ic_account_balance_walletblack" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="25dp"
-                    android:paddingTop="26dp"
+                    android:paddingTop="20dp"
                     android:text="Goal"
                     android:textColor="#000"
                     android:textSize="22sp" />
@@ -87,7 +87,7 @@
             </android.support.v7.widget.LinearLayoutCompat>
 
 
-            <TextView
+            <EditText
                 android:id="@+id/setStartingSave"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
@@ -97,14 +97,6 @@
                 android:text="Rp 0"
                 android:textColor="#64DD17"
                 android:textSize="22sp" />
-
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="2dp"
-                android:layout_marginLeft="35dp"
-                android:layout_marginRight="35dp"
-                android:layout_marginTop="5dp"
-                android:background="#c0c0c0" />
 
 
             <TextView
@@ -118,7 +110,7 @@
             //Starting Amount
 
 
-            <TextView
+            <EditText
                 android:id="@+id/setStartingAmount"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
@@ -129,14 +121,6 @@
                 android:textColor="#64DD17"
                 android:textSize="22sp" />
 
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="2dp"
-                android:layout_marginLeft="35dp"
-                android:layout_marginRight="35dp"
-                android:layout_marginTop="5dp"
-                android:background="#c0c0c0" />
-
             <android.support.v7.widget.LinearLayoutCompat
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -146,30 +130,37 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="35dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/ic_date_rangeeeee" />
-
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="25dp"
-                    android:paddingTop="26dp"
+                    android:paddingTop="20dp"
                     android:text="Ending Date"
                     android:textColor="#000"
                     android:textSize="22sp" />
 
             </android.support.v7.widget.LinearLayoutCompat>
 
-            <EditText
+            <TextView
                 android:id="@+id/endingDate"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:paddingTop="10dp"
                 android:layout_marginStart="35dp"
-                android:backgroundTint="#757575"
-                android:hint="Mark your date here!"
-                android:inputType="date"
-                android:textColor="#757575" />
+                android:textSize="19sp"
+                android:textColor="#757575"
+                android:hint="Date"
+                android:backgroundTint="#757575"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="5dp"
+                android:background="#c0c0c0" />
 
             <android.support.v7.widget.LinearLayoutCompat
                 android:layout_width="wrap_content"

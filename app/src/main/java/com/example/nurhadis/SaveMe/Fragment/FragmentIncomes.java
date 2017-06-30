@@ -12,11 +12,13 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.nurhadis.SaveMe.R;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -26,15 +28,15 @@ public class FragmentIncomes extends Fragment{
 
     Fragment fragment;
     private FirebaseAuth firebaseAuth;
-    private FirebaseAuth.AuthStateListener mAuthListener;
     DatabaseReference mDatabaseRef;
+    FirebaseUser mCurrentUser;
 
     Button finish;
     EditText textValue;
-    EditText textCategory;
     TextView textDate;
     DatePickerDialog datePickerDialog;
     EditText textNote;
+    Spinner textCategory;
 
     View rootView;
 
@@ -51,13 +53,18 @@ public class FragmentIncomes extends Fragment{
         rootView = inflater.inflate(R.layout.fragment_incomes, container, false);
 
         firebaseAuth = FirebaseAuth.getInstance();
-        textValue = (EditText) rootView.findViewById(R.id.setExpenses);
-        textCategory = (EditText) rootView.findViewById(R.id.setCategory);
+        textValue = (EditText) rootView.findViewById(R.id.setIncomes);
+        textCategory = (Spinner) rootView.findViewById(R.id.setCategory);
         textDate = (TextView) rootView.findViewById(R.id.setDate);
         textNote =(EditText) rootView.findViewById(R.id.setNote);
         finish = (Button) rootView.findViewById(R.id.submitIncomes);
 
-        mDatabaseRef = FirebaseDatabase.getInstance().getReference();
+        firebaseAuth = FirebaseAuth.getInstance();
+        mCurrentUser = firebaseAuth.getCurrentUser();
+
+        String key = mCurrentUser.getUid();
+
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference().child("Users").child(key);
 
         textDate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,7 +110,7 @@ public class FragmentIncomes extends Fragment{
         String value, cetegory, date, note;
 
         value = textValue.getText().toString().trim();
-        cetegory = textCategory.getText().toString().trim();
+        cetegory = textCategory.getSelectedItem().toString().trim();
         date = textDate.getText().toString().trim();
         note = textNote.getText().toString().trim();
 
@@ -113,6 +120,15 @@ public class FragmentIncomes extends Fragment{
             //stopping the function execution further;
             return;
         }
+
+        DatabaseReference mCurrent_db = mDatabaseRef.child("incomes").push();
+
+        mCurrent_db.child("category").setValue(cetegory);
+        mCurrent_db.child("date").setValue(date);
+        mCurrent_db.child("note").setValue(note);
+        mCurrent_db.child("value").setValue(value);
+
+        Toast.makeText(getActivity(), "Transaction Added", Toast.LENGTH_SHORT).show();
 
     }
 

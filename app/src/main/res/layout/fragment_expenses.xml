@@ -90,15 +90,17 @@
 
             </android.support.v7.widget.LinearLayoutCompat>
 
-            <EditText
+            <Spinner
                 android:id="@+id/setCategory"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
                 android:layout_marginStart="35dp"
+                android:entries="@array/category_expenses"
+                android:textColor="#757575"
                 android:backgroundTint="#757575"
-                android:hint="Select category here!"
-                android:textColor="#757575" />
+                />
 
             <android.support.v7.widget.LinearLayoutCompat
                 android:layout_width="wrap_content"

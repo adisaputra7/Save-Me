@@ -15,6 +15,13 @@ public class Incomes {
 
     }
 
+    public Incomes(String number, String category, String date, String note) {
+        this.number = number;
+        this.category = category;
+        this.date = date;
+        this.note = note;
+    }
+
     public String getIdTrans() {
         return idTrans;
     }

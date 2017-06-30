@@ -87,15 +87,16 @@
 
             </android.support.v7.widget.LinearLayoutCompat>
 
-            <EditText
+            <Spinner
                 android:id="@+id/setCategory"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:hint="Select category here!"
-                android:textColor="#757575"
+                android:layout_marginStart="35dp"
                 android:backgroundTint="#757575"
-                />
+                android:entries="@array/category_incomes"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textColor="#000000" />
 
             <android.support.v7.widget.LinearLayoutCompat
                 android:layout_width="wrap_content"
@@ -105,7 +106,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginLeft="35dp"
                     android:background="@drawable/ic_date_rangeeeee" />
 
@@ -114,7 +115,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Today"
-                    android:paddingTop="26dp"
+                    android:paddingTop="15dp"
                     android:layout_marginLeft="25dp"
                     android:textColor="#000"
                     android:textSize="22sp"

@@ -1,9 +1,9 @@
 package com.example.nurhadis.SaveMe.Activities;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -27,8 +27,13 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.Iterator;
 
 public class SignIn extends AppCompatActivity {
 
@@ -128,7 +133,17 @@ public class SignIn extends AppCompatActivity {
 
                             if (task.isSuccessful())
                             {
-                                startActivity(new Intent(SignIn.this, MainActivity.class));
+                                mDatabaseRef.addValueEventListener(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(DataSnapshot dataSnapshot) {
+                                            checkUserValidation(dataSnapshot, userEmailString);
+                                    }
+
+                                    @Override
+                                    public void onCancelled(DatabaseError databaseError) {
+
+                                    }
+                                });
                             }
                             else
                             {
@@ -142,6 +157,22 @@ public class SignIn extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void checkUserValidation(DataSnapshot dataSnapshot, String userEmailVer) {
+
+        Iterator iterator = dataSnapshot.getChildren().iterator();
+
+        while (iterator.hasNext())
+        {
+            DataSnapshot dataUser = (DataSnapshot) iterator.next();
+
+            if(dataUser.child("emailUser").getValue().toString().equals(userEmailVer))
+            {
+                Intent in = new Intent(SignIn.this, MainActivity.class);
+                startActivity(in);
+            }
+        }
     }
 
 

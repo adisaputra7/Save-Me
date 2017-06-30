@@ -2,15 +2,16 @@ package com.example.nurhadis.SaveMe.Activities;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.nurhadis.SaveMe.Model.User;
 import com.example.nurhadis.SaveMe.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -47,12 +48,11 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         textName = (EditText) findViewById(R.id.fullName);
         textEmail = (EditText) findViewById(R.id.email);
         textPassword = (EditText) findViewById(R.id.password);
-        textPhone = (EditText) findViewById(R.id.phone);
 
         mRegister.setOnClickListener(this);
 
         //Assign Instance
-        mDatabaseRef = FirebaseDatabase.getInstance().getReference();
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference().child("Users");
 
     }
 
@@ -62,7 +62,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
          name = textName.getText().toString().trim();
          email = textEmail.getText().toString().trim();
          password = textPassword.getText().toString().trim();
-         phone = textPhone.getText().toString().trim();
+
 
         if (TextUtils.isEmpty(email)){
             //email is empty
@@ -82,12 +82,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
             //stopping the function execution further;
             return;
         }
-        if (TextUtils.isEmpty(phone)){
-            //email is empty
-            Toast.makeText(this, "Please enter phone",Toast.LENGTH_SHORT).show();
-            //stopping the function execution further;
-            return;
-        }
+
 
         progressDialog.setMessage("Registering User...");
         progressDialog.show();
@@ -100,18 +95,20 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                             //user is succesfull registered and logged in
                             //we will start the profile activity here
                             //and display toast
-                            DatabaseReference mChildDatabase = mDatabaseRef.child("Users").push();
+                            String key = firebaseAuth.getCurrentUser().getUid();
 
-                            String key_user= mChildDatabase.getKey();
+                            DatabaseReference mCurrent_db = mDatabaseRef.child(key);
 
-                            mChildDatabase.child("keyUser").setValue(key_user);// set User key in database
-                            mChildDatabase.child("emailUser").setValue(email);// set email in database
-                            mChildDatabase.child("pwdUser").setValue(password);// set password in database
-                            mChildDatabase.child("fullname").setValue(name);
-                            mChildDatabase.child("phone").setValue(phone);
-                            mChildDatabase.child("incomes");
-                            mChildDatabase.child("expenses");
-                            mChildDatabase.child("save");
+                            User user = new User();
+
+                            user.setEmailUser(email);
+                            user.setFullname(name);
+                            user.setPassUser(password);
+                            user.setIncomes("-");
+                            user.setSave("-");
+                            user.setExpenses("-");
+
+                            mCurrent_db.setValue(user);
 
                             Toast.makeText(SignUp.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
                             startActivity( new Intent(SignUp.this, MainActivity.class));

@@ -27,8 +27,9 @@ public class Summary extends Fragment {
 
     private RecyclerView mTransactionList;
     private DatabaseReference mDatabase;
-    private FirebaseUser mCurrentUser;
     private FirebaseAuth mAuth;
+
+    FirebaseUser mCurrentUser;
 
     public Summary() {
         // Required empty public constructor
