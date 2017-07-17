@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import com.example.nurhadis.SaveMe.Fragment.FragmentAccount;
 import com.example.nurhadis.SaveMe.Fragment.FragmentExpenses;
 import com.example.nurhadis.SaveMe.Fragment.FragmentIncomes;
-import com.example.nurhadis.SaveMe.Fragment.FragmentSave;
+import com.example.nurhadis.SaveMe.Fragment.FragmentSaving;
 import com.example.nurhadis.SaveMe.Fragment.Summary;
 import com.example.nurhadis.SaveMe.R;
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new FragmentIncomes();
                         break;
                     case R.id.navigation_saving:
-                        fragment = new FragmentSave();
+                        fragment = new FragmentSaving();
                         break;
                     case R.id.navigation_expenses:
                         fragment = new FragmentExpenses();

@@ -5,7 +5,7 @@ package com.example.nurhadis.SaveMe.Model;
  */
 
 public class Expenses {
-    private String idTrans;
+
     private String number;
     private String category;
     private String date;
@@ -13,14 +13,6 @@ public class Expenses {
 
     public Expenses () {
 
-    }
-
-    public String getIdTrans() {
-        return idTrans;
-    }
-
-    public void setIdTrans(String idTrans) {
-        this.idTrans = idTrans;
     }
 
     public String getNumber() {

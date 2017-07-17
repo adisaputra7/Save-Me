@@ -172,6 +172,9 @@ public class SignIn extends AppCompatActivity {
                 Intent in = new Intent(SignIn.this, MainActivity.class);
                 startActivity(in);
             }
+            else {
+                Toast.makeText(SignIn.this, "Please cek your account", Toast.LENGTH_SHORT).show();
+            }
         }
     }
 

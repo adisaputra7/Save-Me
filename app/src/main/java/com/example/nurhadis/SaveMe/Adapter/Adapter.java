@@ -4,15 +4,26 @@ public class Adapter {
     private String category;
     private String note;
     private String value;
+    private String date;
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     public Adapter() {
 
     }
 
-    public Adapter(String category, String note, String value) {
+
+    public Adapter(String category, String note, String value, String date) {
         this.category = category;
         this.note = note;
         this.value = value;
+        this.date = date;
     }
 
     public String getCategory() {

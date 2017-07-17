@@ -5,7 +5,7 @@ package com.example.nurhadis.SaveMe.Model;
  */
 
 public class Incomes {
-    private String idTrans;
+
     private String number;
     private String category;
     private String date;
@@ -22,13 +22,6 @@ public class Incomes {
         this.note = note;
     }
 
-    public String getIdTrans() {
-        return idTrans;
-    }
-
-    public void setIdTrans(String idTrans) {
-        this.idTrans = idTrans;
-    }
 
     public String getNumber() {
         return number;

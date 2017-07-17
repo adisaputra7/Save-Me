@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -54,6 +54,10 @@
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transaction_save.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\transaction_save.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_help.xml",
@@ -170,6 +174,10 @@
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Nur Hadi Saputra\\.android\\build-cache\\06ac4d11d6dfd62298471293f42ee6b8c27502d6\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment__saving.xml",
+        "source": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\src\\main\\res\\layout\\fragment_fragment__saving.xml"
     },
     {
         "merged": "C:\\Users\\Nur Hadi Saputra\\Documents\\AndroidStudioProjects\\SakuRia1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signup.xml",

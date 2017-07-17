@@ -94,8 +94,8 @@
                 android:layout_marginStart="35dp"
                 android:inputType="number"
                 android:paddingTop="10dp"
-                android:text="Rp 0"
-                android:textColor="#64DD17"
+                android:hint="Rp 0"
+                android:textColorHint="#64DD17"
                 android:textSize="22sp" />
 
 
@@ -117,8 +117,8 @@
                 android:layout_marginStart="35dp"
                 android:backgroundTint="#757575"
                 android:inputType="number"
-                android:text="Rp 0"
-                android:textColor="#64DD17"
+                android:hint="Rp 0"
+                android:textColorHint="#64DD17"
                 android:textSize="22sp" />
 
             <android.support.v7.widget.LinearLayoutCompat

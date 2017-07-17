@@ -8,12 +8,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.nurhadis.SaveMe.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 
 public class FragmentProfil extends Fragment {
@@ -45,7 +49,7 @@ public class FragmentProfil extends Fragment {
 
         keyUser = mCurrentUser.getUid();
 
-        mDataRef = FirebaseDatabase.getInstance().getReference().child("Users");
+        mDataRef = FirebaseDatabase.getInstance().getReference().child("Users").child(keyUser);
 
         editName = (EditText) rootView.findViewById(R.id.setName);
         editEmail = (EditText) rootView.findViewById(R.id.setEmail);
@@ -55,13 +59,42 @@ public class FragmentProfil extends Fragment {
             @Override
             public void onClick(View view) {
 
-                String name = editName.getText().toString().trim();
-                String email = editEmail.getText().toString().trim();
+                mDataRef.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        String name = editName.getText().toString().trim();
+                        String email = editEmail.getText().toString().trim();
+                        if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(email)) {
+                            mDataRef.child("fullname").setValue(name);
+                            mDataRef.child("emailUser").setValue(email);
 
-                    if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(email)) {
-                        mDataRef.child(keyUser).child("fullname").setValue(name);
-                        mDataRef.child(keyUser).child("emailUser").setValue(email);
+                            Toast.makeText(getActivity(), "Profil changed", Toast.LENGTH_SHORT).show();
+                        }
+
                     }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+            }
+        });
+
+        mDataRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String profile_name = (String) dataSnapshot.child("fullname").getValue();
+                String profile_email = (String) dataSnapshot.child("emailUser").getValue();
+
+
+                editEmail.setText(profile_email);
+                editName.setText(profile_name);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
             }
         });
 
